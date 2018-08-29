@@ -13,11 +13,12 @@ def load_library(file_path)
     new_hash["get_emoticon"][meaning[0]]=meaning[1]
   end
   new_hash
- #binding.pry
 end
 
-def get_japanese_emoticon
-  # code goes here
+def get_japanese_emoticon(yaml_file, emoticon)
+ 
+ all_emoticons = load_library(yaml_file)
+ 
 end
 
 def get_english_meaning
