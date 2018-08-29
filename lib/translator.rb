@@ -6,9 +6,11 @@ require "pry"
 def load_library(file_path)
  new_hash = {}
  emoticons = YAML.load_file(file_path)
+ 
   emoticons.each do |emoticon, meaning|
     
-      new_hash[emoticon]=meaning[1]
+      new_hash[:get_meaning]={}
+      new_hash[:get_emoticon]={}
   end
   new_hash
   binding.pry
