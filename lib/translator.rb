@@ -1,7 +1,7 @@
 # require modules here
 
 def load_library
-   new_hash = "".emoticon-translator-dumbo-web-100818/lib/
+   new_hash = "./emoticon-translator-dumbo-web-100818/lib/emoticons.yml"
 end
 
 def get_japanese_emoticon
