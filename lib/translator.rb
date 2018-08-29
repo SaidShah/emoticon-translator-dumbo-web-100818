@@ -21,9 +21,9 @@ def get_japanese_emoticon(yaml_file, emoticon)
  
  all_emoticons.each do |first_set,sec_set|
  
- 
+  binding.pry
  end
- binding.pry
+
  
 end
 
