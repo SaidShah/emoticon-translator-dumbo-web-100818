@@ -1,6 +1,6 @@
 # require modules here
 
-def load_library
+def load_library(file_path)
    new_hash = "./emoticon-translator-dumbo-web-100818/lib/emoticons.yml"
 end
 
