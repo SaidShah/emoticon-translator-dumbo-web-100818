@@ -8,9 +8,9 @@ def load_library(file_path)
  emoticons = YAML.load_file(file_path)
   emoticons.each do |emoticon, meaning|
     meaning.each do |english_emo|
-      
+       binding.pry
       english_emo.each do |x|
-        binding.pry
+       
     
     end
       
