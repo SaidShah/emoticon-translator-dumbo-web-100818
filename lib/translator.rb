@@ -19,7 +19,7 @@ def get_japanese_emoticon(yaml_file, emoticon)
  
  all_emoticons = load_library(yaml_file)
  
- all_emoticons["get_emoticon"][emoticon]
+ all_emoticons["get_emoticon"][emoticon] == nil? "Sorry, that emoticon was not found" : 
  
  
 end
