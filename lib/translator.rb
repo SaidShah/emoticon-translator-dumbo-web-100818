@@ -4,10 +4,13 @@ require "yaml"
 require "pry"
 
 def load_library(file_path)
- 
+ new_hash = {}
  emoticons = YAML.load_file(file_path)
   emoticons.each do |emoticon, meaning|
-    
+    meaning.each do |english_emo, jap_emo|
+      binding.pry
+   
+   end
   end
 end
 
