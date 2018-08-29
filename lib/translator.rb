@@ -1,6 +1,7 @@
 # require modules here
 
-require "yaml , pry"
+require "yaml"
+require "pry"
 
 def load_library(file_path)
  #  new_hash = "./emoticon-translator-dumbo-web-100818/lib/emoticons.yml"
