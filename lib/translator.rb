@@ -1,7 +1,7 @@
 # require modules here
 
 def load_library
-   new_hash = 
+   new_hash = ./lib/
 end
 
 def get_japanese_emoticon
