@@ -10,7 +10,7 @@ def load_library(file_path)
     
       new_hash[emoticon]=meaning[1]
   end
-  
+  new_hash
 end
 
 def get_japanese_emoticon
