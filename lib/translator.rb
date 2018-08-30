@@ -21,7 +21,7 @@ def get_japanese_emoticon(yaml_file, emoticon)
  
  all_emoticons["get_emoticon"][emoticon] == nil ? "Sorry, that emoticon was not found" : all_emoticons["get_emoticon"][emoticon]
  
- all_emoticons["get_emoticon"][all_emoticons["get_emoticon"].key(emoticon)]
+ 
 end
 
 def get_english_meaning(yaml_file, emoticon)
@@ -29,5 +29,5 @@ def get_english_meaning(yaml_file, emoticon)
  all_emoticons = load_library(yaml_file)
  
  all_emoticons["get_emoticon"].key(emoticon) == nil ? "Sorry, that emoticon was not found" : all_emoticons["get_emoticon"].key(emoticon)
- 
+ binding.pry
 end
