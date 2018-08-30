@@ -28,6 +28,6 @@ def get_english_meaning(yaml_file, emoticon)
  
  all_emoticons = load_library(yaml_file)
  
- binding.pry
+ all_emoticons["get_emoticon"][emoticon]
  
 end
