@@ -29,5 +29,5 @@ def get_english_meaning(yaml_file, emoticon)
  all_emoticons = load_library(yaml_file)
  
  all_emoticons["get_emoticon"][emoticon] == nil ? "Sorry, that emoticon was not found" : all_emoticons["get_emoticon"][emoticon]
- binding.pry
+
 end
