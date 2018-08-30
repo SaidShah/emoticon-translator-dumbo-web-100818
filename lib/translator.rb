@@ -24,6 +24,10 @@ def get_japanese_emoticon(yaml_file, emoticon)
  
 end
 
-def get_english_meaning
-  # code goes here
+def get_english_meaning(yaml_file, emoticon)
+ 
+ all_emoticons = load_library(yaml_file)
+ 
+ binding.pry
+ 
 end
